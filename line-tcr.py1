@@ -35,7 +35,7 @@ ka.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""PSD Bot v2.1      
+helpMessage ="""PSD      
   
 👊[Id]: ~÷~
 👊[Mid]: ~÷~
@@ -107,7 +107,7 @@ Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
-admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+admin = ["uc77fd25b59f6e563d84f1334f3fed10b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
