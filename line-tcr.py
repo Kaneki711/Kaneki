@@ -16,56 +16,64 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""  ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟͟͞͞͞i͟͟͟͞͞͞ S͟͟͟͞͞͞e͟͟͟͞͞͞l͟͟͟͞͞͞f͟͟͟͞͞͞b͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞ ||==||
-♜[Id︎]
-♜[Mid]
-♜[Me︎]
-♜[TL︎:「Text」]
-♜[Mc 「mid」]
-♜[K on/off]
-♜[Join︎ on/off]
-♜[Gcancel:︎「Number of people」]
-♜[Group cancelalll︎]
-♜[Leave︎ on/off]
-♜[Add on/off]
-♜[Share on/off]
-♜[Message change:「text」]
-♜[Message check]
-♜[Confirm]
-♜[Jam on/off]
-♜[Change clock:「name」]
-♜[Up]
+♜Id︎
+♜All mid
+♜Mid
+♜Me︎
+♜TL︎:「Text」
+♜Mc 「mid」
+♜K on/off
+♜Join︎ on/off
+♜Gcancel:︎「Number of people」
+♜Group cancelalll︎
+♜Leave︎ on/off
+♜Add on/off
+♜Share on/off
+♜Message change:「text」
+♜Message check
+♜Confirm
+♜Jam on/off
+♜Change clock:「name」
+♜Up
 
  ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ G͟͟͟͞͞͞r͟͟͟͞͞͞o͟͟͟͞͞͞u͟͟͟͞͞͞p͟͟͟͞͞͞  ☠
 
-♚[Curl]
-♚[Ourl]
-♚[url]
-♚[url:「Group ID」]
-♚[Invite：「mid」]
-♚[Kick：「mid」]
-♚[Ginfo]
-♚[jointicket]
-♚[Cancel]
-♚[Gn 「group name」]
-♚[Nk 「name」]
+♚Curl
+♚Ourl
+♚url
+♚url:「Group ID」
+♚Invite：「mid」
+♚Kick：「mid」
+♚Ginfo
+♚jointicket
+♚Cancel
+♚Gn 「group name」
+♚Nk 「name」
+♚Masuk
+♚Bye Semua
+♚Tagall
+♚Clear
+♚Cleanse
+♚SetGroup
+♚cName
 
  ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞   ☠
 
-♛[Bye]
-♛[Kill ban]
-♛[Kill 「@」]
-♛[Ban 「@」] By Tag
-♛[Unban 「@」] By Tag
-♛[Ban︎] Share Contact
-♛[Unban︎] Share Contact
-♛[Banlist︎]
-♛[Cek ban]
-♛[mid]
-♛[invite:「mid」]
-♛[rename:「name」]
-♛[Respo︎n]
-♛[Bot cancel]
-♛[Allmode on/off]
+♛Bye
+♛Kill ban
+♛Kill 「@」
+♛Ban 「@」] By Tag
+♛Unban 「@」 By Tag
+♛Ban︎] Share Contact
+♛Unban︎] Share Contact
+♛Banlist︎
+♛Cek ban
+♛mid
+♛invite:「mid」
+♛rename:「name」
+♛Respo︎n
+♛Bot cancel
+♛Allmode on/off
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -1045,7 +1053,7 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"è¦äº†å…³æ–­ã€‚")
-            elif msg.text in ["Status"]:
+            elif msg.text in ["SetGroup"]:
                 md = ""
                 if wait["contact"] == True: md+=" Contact : on\n"
                 else: md+=" Contact : off\n"
