@@ -89,12 +89,16 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":"Mr X ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
     "protectionOn":True,
     "atjointicket":False
+    "protect":True,
+    "cancelprotect":False
+    "inviteprotect":False
+    "linkprotect":False
     }
 
 wait2 = {
