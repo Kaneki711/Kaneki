@@ -1557,24 +1557,6 @@ def bot(op):
                     ki.sendMessage(msg)
                 except Exception as error:
                     print error        
-#-------------------------------------------------
-             elif msg.text in ["Like:on"]:
-                if wait["likeOn"] == True:
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done。")
-                else:
-                    wait["likeOn"] = True
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already。")
-            elif msg.text in ["いいね:オフ","Like:off"]:
-                if wait["likeOn"] == False:
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done。")
-                else:
-                    wait["likeOn"] = False
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already。")
-#---------------------------------------------------
 #---------------------------------------------------
             elif msg.text in ["Kill"]:
                 if msg.toType == 2:
