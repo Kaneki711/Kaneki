@@ -1449,8 +1449,26 @@ def bot(op):
                         kc.leaveGroup(msg.to)
                     except:
                         pass
-#--------------------------------------------
-            elif msg.text.lower() == 'protect on':
+            elif msg.text in ["Allmode on","Mode on"]:
+              if msg.from_ in admin:
+                if wait["inviteprotect"] == True:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Invite Protect On")
+                    else:
+                        cl.sendText(msg.to,"✠ Already On")
+                else:
+                    wait["inviteprotect"] = True
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Invite Protect On")
+                if wait["cancelprotect"] == True:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Cancel Protect On")
+                    else:
+                        cl.sendText(msg.to,"✠ Already On")
+                else:
+                    wait["cancelprotect"] = True
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Cancel Protect On")      
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"✠ Protect On")
@@ -1459,11 +1477,9 @@ def bot(op):
                 else:
                     wait["protect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"✠ already ON")
+                        cl.sendText(msg.to,"✠ Protect On")
                     else:
-                        cl.sendText(msg.to,"✠ It is already On")
-#-----------------------------------------------
-            elif msg.text.lower() == 'qrprotect on':
+                        cl.sendText(msg.to,"✠ Already On")
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"✠ Link Protect On")
@@ -1472,9 +1488,51 @@ def bot(op):
                 else:
                     wait["linkprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"✠ already ON")
+                        cl.sendText(msg.to,"✠ Link Protect On")
                     else:
-                        cl.sendText(msg.to,"✠ It is already On") 
+                        cl.sendText(msg.to,"✠ Already On")
+            elif msg.text in ["Allmode off","Mode Off"]:
+              if msg.from_ in admin:
+                if wait["inviteprotect"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Invite Protect Off")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn Off")
+                else:
+                    wait["inviteprotect"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Invite Protect On")
+                if wait["cancelprotect"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Cancel Protect On")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn Off")
+                else:
+                    wait["cancelprotect"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Cancel Protect Off")      
+                if wait["protect"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Protect Off")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn Off")
+                else:
+                    wait["protect"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Protect Off")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn")
+                if wait["linkprotect"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Link Protect On")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn Off")
+                else:
+                    wait["linkprotect"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"✠ Link Protect Off")
+                    else:
+                        cl.sendText(msg.to,"✠ Turn Off")
 #-----------------------------------------------
             elif msg.text in ["Kill"]:
                 if msg.toType == 2:
