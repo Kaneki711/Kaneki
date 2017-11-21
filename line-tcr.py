@@ -65,6 +65,7 @@ helpMessage ="""  ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟�
 ♛[rename:「name」]
 ♛[Respo︎n]
 ♛[Bot cancel]
+♛[Allmode on/off]
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -91,14 +92,10 @@ wait = {
     "clock":True,
     "cName":"Mr X ",
     "blacklist":{},
-    "wblacklist":False,
-    "dblacklist":False,
-    "protectionOn":True,
-    "atjointicket":False
+    "linkprotect":False,
+    "inviteprotect":False,
     "protect":True,
     "cancelprotect":False
-    "inviteprotect":False
-    "linkprotect":False
     }
 
 wait2 = {
@@ -1537,7 +1534,39 @@ def bot(op):
                         cl.sendText(msg.to,"✠ Link Protect Off")
                     else:
                         cl.sendText(msg.to,"✠ Turn Off")
-#-----------------------------------------------
+#---------------------------------------------------
+            elif msg.text in ["Tagall"]:
+              if msg.from_ in admin:
+                group = cl.getGroup(msg.to)
+                nama = [contact.mid for contact in group.members]
+                cb = ""
+                cb2 = ""
+                strt = int(0)
+                akh = int(0)
+                for md in nama:
+                    akh = akh + int(5)
+                    cb += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(md)+"},"""
+                    strt = strt + int(6)
+                    akh = akh + 1
+                    cb2 += "@nrik\n"
+                cb = (cb[:int(len(cb)-1)])
+                msg.contentType = 0
+                msg.text = cb2
+                msg.contentMetadata ={'MENTION':'{"MENTIONEES":['+cb+']}','EMTVER':'4'}
+                try:
+                    ki.sendMessage(msg)
+                except Exception as error:
+                    print error        
+#-------------------------------------------------
+            elif "UpdateNama: " in msg.text:
+                string = msg.text.replace("UpddateNama: ","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ki5.getProfile()
+                    profile.displayName = string
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"􀜁􀇔􏿿Update Names👉" + string + "👈")
+#---------------------------------------------------
+#---------------------------------------------------
             elif msg.text in ["Kill"]:
                 if msg.toType == 2:
                     group = ki.getGroup(msg.to)
