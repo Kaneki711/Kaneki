@@ -1558,13 +1558,22 @@ def bot(op):
                 except Exception as error:
                     print error        
 #-------------------------------------------------
-            elif "UpdateNama: " in msg.text:
-                string = msg.text.replace("UpddateNama: ","")
-                if len(string.decode('utf-8')) <= 20:
-                    profile = ki5.getProfile()
-                    profile.displayName = string
-                    cl.updateProfile(profile)
-                    cl.sendText(msg.to,"􀜁􀇔􏿿Update Names👉" + string + "👈")
+             elif msg.text in ["Like:on"]:
+                if wait["likeOn"] == True:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Done。")
+                else:
+                    wait["likeOn"] = True
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Already。")
+            elif msg.text in ["いいね:オフ","Like:off"]:
+                if wait["likeOn"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Done。")
+                else:
+                    wait["likeOn"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"Already。")
 #---------------------------------------------------
 #---------------------------------------------------
             elif msg.text in ["Kill"]:
