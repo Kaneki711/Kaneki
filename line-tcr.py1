@@ -60,7 +60,6 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 
 ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ G͟͟͟͞͞͞r͟͟͟͞͞͞o͟͟͟͞͞͞u͟͟͟͞͞͞p͟͟͟͞͞͞  ☠
 
-
 ♜Contact: on/off 
 ♜Auto join: on/off 
 ♜Cancel Invite: 1 on/off
@@ -73,8 +72,9 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ♜Masuk
 ♜Bye semua
 ♜SetGroup
- 
-	
+♜setlastpoint
+♜viewseen
+ 	
 ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞   ☠ 
 
 ●Ban  @Tag
@@ -131,11 +131,11 @@ autoinvite = []
 autoleaveroom = []
 
 admins = ["uc77fd25b59f6e563d84f1334f3fed10b"]
-Rx5 = ["uc77fd25b59f6e563d84f1334f3fed10b"]
-Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx2 = ["ua51ba06b0dd18c0bfe2cc6caa3458202"]
-Rx1 = ["uc7f32bb28dc009916d40af87c9910ddc"]
+Rx5 = ["u7f60bce6c583caa55b5e3f3a38897ae6"]
+Rx4 = ["u7ac1fe74068014153e25c38a428909aa"]
+Rx3 = ["uc25acea295673902814610eabe7fd7de"]
+Rx2 = ["u89ef556ae594177b388c31ad783dbb23"]
+Rx1 = ["ufea729f5083f2878dc53a33e7f9a3042"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
 adminsA = admins + Rx3 + Rx5
@@ -1859,7 +1859,8 @@ def bot(op):
 
                 elif op.param3 in op.param3:
                     if op.param1 in protection:
-                        OWN = "u2144f4eca089e5888899ad5d0551c085","u406133ad4d3fbe50a2f4d51ea081d050","ua51ba06b0dd18c0bfe2cc6caa3458202","u34a9af3a18784280147fc413a68a77fd"
+                        OWN = "uc77fd25b59f6e563d84f1334f3fed10b","u7f60bce6c583caa55b5e3f3a38897ae6","u7ac1fe74068014153e25c38a428909aa","uc25acea295673902814610eabe7fd7de","u89ef556ae594177b388c31ad783dbb23","ufea729f5083f2878dc53a33e7f9a3042"
+
                     if op.param2 in OWN:
                         kicker1 = [cl,ki,kk,ks,kc,ka]
                         G = random.choice(kicker1).getGroup(op.param1)
@@ -2423,7 +2424,7 @@ def bot(op):
                     pass
                     
         if op.param1 in autocancel:
-			OWN = "ua7fc5964d31f45ac75128fc2b8deb842","u406133ad4d3fbe50a2f4d51ea081d050","ua51ba06b0dd18c0bfe2cc6caa3458202","uc7f32bb28dc009916d40af87c9910ddc"
+			OWN = "uc77fd25b59f6e563d84f1334f3fed10b","u7f60bce6c583caa55b5e3f3a38897ae6","u7ac1fe74068014153e25c38a428909aa","uc25acea295673902814610eabe7fd7de"
 			if op.param2 in OWN:
 				pass
 			else:
@@ -2447,7 +2448,7 @@ def bot(op):
 				json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
 #------------------------------------------------------------------------------------
         if op.type == 32:
-			OWN = "ua7fc5964d31f45ac75128fc2b8deb842","u406133ad4d3fbe50a2f4d51ea081d050","ua51ba06b0dd18c0bfe2cc6caa3458202","uc7f32bb28dc009916d40af87c9910ddc"
+			OWN = "uc77fd25b59f6e563d84f1334f3fed10b","u7f60bce6c583caa55b5e3f3a38897ae6","u7ac1fe74068014153e25c38a428909aa","uc25acea295673902814610eabe7fd7de"
 			if op.param2 in OWN:
 				pass
 			else:
