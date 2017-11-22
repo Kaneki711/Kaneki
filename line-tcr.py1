@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnGgug3bi7NC4YpRM8Pb.X3+sw1N25wpytXm08+7rcW.Lii1eMIydNxXGm/9bkpR/TMw4IoorWTswNskx0k3nNc=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EnaqoMdc1rW3Os1GM3w6.F2c85SwdYQvBxJ86oiL65G.tfRm6t2K34s1UAZWfIPsMe1qc+kc6NOYRzdZusfaSlw=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="EnxyvzSqWoQNg0CFjkm3.IE9vAUwuf3S4JdgTEd27iW.ABcem7A6eLriWgx/Se9wLbmDpeHUPrGM49qqiwjWw+M=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(toke="En4IRUAnmqBhCyWUD9Ee.WLRoOPvNoqkbrHdQVN+x3G.3czDt9zA5a3mtz0Pfun7FyiAU/dP2MXmOAz+oyfbQRk=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="En8RzK6iilE9CojwKnna.ESh/DaAafbu/jCokqOKjQG.qgDSoQKxabj8PIReLoyI7xRuCufEjrmOmz85lLVBxmM=")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(qr=True)
+ka.login(token="EnZRhgZlWXa8urVbhib2.+QCP9qG+khJCu6m/F5OWqG.oQIYJPzATBktBZRmfwhR+mdY8yE3NHT/KmDdkU+ubUo=")
 ka.loginResult()
 
 print "login success"
@@ -74,7 +74,7 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ♜SetGroup
 ♜setlastpoint
 ♜viewseen
- 	
+♜Creator 	
 ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞   ☠ 
 
 ●Ban  @Tag
