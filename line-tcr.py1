@@ -69,7 +69,11 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ♜Comment: on/off 
 ♜Auto add: on/off 
 ♜Auto like: on/off
-♜Cium 
+♜Cium
+♜Masuk
+♜Bye semua
+♜SetGroup
+ 
 	
 ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞   ☠ 
 
@@ -145,9 +149,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks add me😊😊😊",
+    'message':"Contact For Akun Official line.me/ti/p/~@enr7503k",
     "lang":"JP",
-    "comment":"Auto like 👉Tamii👈",
+    "comment":"Auto like By line.me/ti/p/~ebisuindo",
     "likeOn":False,
     "commentOn":False,
     "commentBlack":{},
