@@ -1859,7 +1859,7 @@ def bot(op):
 
                 elif op.param3 in op.param3:
                     if op.param1 in protection:
-                        OWN = "uc77fd25b59f6e563d84f1334f3fed10b","u7f60bce6c583caa55b5e3f3a38897ae6","u7ac1fe74068014153e25c38a428909aa","uc25acea295673902814610eabe7fd7de","u89ef556ae594177b388c31ad783dbb23","ufea729f5083f2878dc53a33e7f9a3042"
+                        OWN = "uc77fd25b59f6e563d84f1334f3fed10b","u7f60bce6c583caa55b5e3f3a38897ae6","u7ac1fe74068014153e25c38a428909aa","uc25acea295673902814610eabe7fd7de","u89ef556ae594177b388c31ad783dbb23"
 
                     if op.param2 in OWN:
                         kicker1 = [cl,ki,kk,ks,kc,ka]
