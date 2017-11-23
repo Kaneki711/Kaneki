@@ -13,11 +13,11 @@ cl.login(token="EnGgug3bi7NC4YpRM8Pb.X3+sw1N25wpytXm08+7rcW.Lii1eMIydNxXGm/9bkpR
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EnaqoMdc1rW3Os1GM3w6.F2c85SwdYQvBxJ86oiL65G.tfRm6t2K34s1UAZWfIPsMe1qc+kc6NOYRzdZusfaSlw=")
+ki.login(token="EnLRIDHL02NvZVgCgVJ6.F2c85SwdYQvBxJ86oiL65G.Xk0OKqiaLrU7YBDL3+DAtRxHmr3nxNk7ihnTbhQo7s8=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EnxyvzSqWoQNg0CFjkm3.IE9vAUwuf3S4JdgTEd27iW.ABcem7A6eLriWgx/Se9wLbmDpeHUPrGM49qqiwjWw+M=")
+kk.login(token="Ene2jSTv1PTh0Mepzzy3.IE9vAUwuf3S4JdgTEd27iW.QGhRNa+WTgOn0dsxToD6jHCVMVvavZeEP+kDEpkDfsc=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
@@ -72,9 +72,11 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ♜Masuk
 ♜Bye semua
 ♜SetGroup
-♜setlastpoint
-♜viewseen
-♜Creator 	
+♜$cek
+♜$read
+♜Creator
+♜Myrobot 	
+
 ☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞   ☠ 
 
 ●Ban  @Tag
@@ -88,7 +90,10 @@ helpMessage =""" ||==||K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ●Cancel 
 ●Gn [name]
 ●NK [Name]
-●Dead 
+●Dead
+●Copy
+●Backup me 
+●List Group
 
 """
 helpMessage2 ="""☠ C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ P͟͟͟͞͞͞r͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞e͟͟͟͞͞͞c͟͟͟͞͞͞t͟͟͟͞͞͞e͟͟͟͞͞͞d͟͟͟͞͞͞  ☠ -
@@ -517,7 +522,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
                 cl.sendMessage(msg)
-            elif "Kibar" == msg.text:
+            elif "Myrobot" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid}
                 ki.sendMessage(msg)
@@ -983,14 +988,14 @@ def bot(op):
                 else: md +="♕ Auto join → off \n"
                 if wait["autoCancel"]["on"] == True:md+="♛ Cancel Invite → " + str(wait["autoCancel"]["members"]) + " \n"     
                 else: md+= "♕ Cancel Invite → off \n"  
-                if wait["leaveRoom"] == True: md+="♛ Auto leave → on \n"   
-                else: md+="♕ Auto leave → off \n"
-                if wait["timeline"] == True: md+="♛ Auto Share → on \n"  
-                else:md+="♕ Auto Share → off \n" 
+                if wait["protection"] == True: md+="♛ Protect → on \n"   
+                else: md+="♕ Protect → off \n"
+                if wait["protecturl"] == True: md+="♛ Block url → on \n"  
+                else:md+="♕ Block url → off \n" 
                 if wait["commentOn"] == True: md+="♛ Comment → on \n"   
                 else:md+="♕ Comment → off \n"    
-                if wait["autoAdd"] == True: md+="♛ Auto add → on \n"  
-                else:md+="♕ Auto add → off \n"   
+                if wait["protectname"] == True: md+="♛ Namelock → on \n"  
+                else:md+="♕ Namelock → off \n"   
                 if wait["likeOn"] == True: md+="♛ Auto like → on \n"
                 else:md+="♕ Auto like → off \n" 
                 cl.sendText(msg.to,md)
@@ -1290,6 +1295,39 @@ def bot(op):
                                 ks.sendText(msg.to,".....")
                                 kc.sendText(msg.to,"Lalalala Syalala")
                                 ka.sendText(msg.to,"We Are Kaneki Team")
+#-------------------------------------LIST GROUP------------------------------
+            elif msg.text in ["List group"]:
+                gid = cl.getGroupIdsJoined()
+                h = ""
+	      	jml = 0
+                for i in gid:
+	     	    gn = cl.getGroup(i).name
+                    h += "♛ ☾%s☽ \n" % (gn)
+	       	    jml += 1
+                cl.sendText(msg.to,"======[List Group]======\n"+ h +"Total group: "+str(jml))       
+#---------------------------------------Backup me--------------------------------
+            elif "Backup me" in msg.text:
+	     	try:
+	      	    cl.updateDisplayPicture(profile.pictureStatus)
+	      	    cl.updateProfile(profile)
+	      	    cl.sendText(msg.to, "Success backup profile")
+	     	except Exception as e:
+	      	    cl.sendText(msg.to, str(e))                
+#-----------------------------------------Copy--------------------------------------
+            elif "Copy " in msg.text:
+                copy0 = msg.text.replace("Copy ","")
+                copy1 = copy0.lstrip()
+                copy2 = copy1.replace("@","")
+                copy3 = copy2.rstrip()
+                _name = copy3
+		group = cl.getGroup(msg.to)
+		for contact in group.members:
+		    cname = cl.getContact(contact.mid).displayName
+		    if cname == _name:
+			cl.CloneContactProfile(contact.mid)
+			cl.sendText(msg.to, "Success~")
+		    else:
+			pass
 #-----------------------------------------------------------                          
             elif "Kick" in msg.text:
                 if msg.contentMetadata is not None:
@@ -1306,7 +1344,7 @@ def bot(op):
                     else:
                         pass
             elif "K1 kick" in msg.text:
-				OWN = "u406133ad4d3fbe50a2f4d51ea081d050"
+				OWN = "uc77fd25b59f6e563d84f1334f3fed10b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1332,7 +1370,7 @@ def bot(op):
 									ki.kickoutFromGroup(msg.to, [target])							   
 									pass
             elif "K2 kick" in msg.text:
-				OWN = "ua51ba06b0dd18c0bfe2cc6caa3458202"
+				OWN = "uc77fd25b59f6e563d84f1334f3fed10b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1359,7 +1397,7 @@ def bot(op):
 									pass
 
             elif "K3 kick" in msg.text:
-				OWN = "u34a9af3a18784280147fc413a68a77fd"
+				OWN = "uc77fd25b59f6e563d84f1334f3fed10b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1386,7 +1424,7 @@ def bot(op):
 									pass									
 
             elif "K4 kick" in msg.text:
-				OWN = "u34a9af3a18784280147fc413a68a77fd"
+				OWN = "uc77fd25b59f6e563d84f1334f3fed10b"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1690,7 +1728,7 @@ def bot(op):
                 ka.sendText(msg.to,"Suzuya Hadir ")
                 cl.sendText(msg.to,"Your Group Has Been Protected")
 #----------------------------------------------------------
-            elif msg.text == "Setlastpoint":
+            elif msg.text == "$cek":
               if msg.from_ in admin:
                 cl.sendText(msg.to, "Cek Sider")
                 try:
@@ -1704,7 +1742,7 @@ def bot(op):
                 wait2['setTime'][msg.to] = datetime.strftime(now2,"%H:%M")
                 wait2['ROM'][msg.to] = {}
                 print wait2
-            elif msg.text == "Viewlastseen":
+            elif msg.text == "$read":
               if msg.from_ in admin:
 		  if msg.to in wait2['readPoint']:
 	            if wait2["ROM"][msg.to].items() == []:
