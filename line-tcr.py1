@@ -167,11 +167,8 @@ wait = {
     "wblacklist":False,
     "pnharfbot":{},
     "pname":{},
-    "pro_name":{},    
-    "dblacklist":False
-    "copy":{},
-    "copy2":"target",
-    "target":{}
+    "kembali":{},    
+    "copy":False,
 }
 
 wait2 = {
