@@ -21,7 +21,7 @@ kk.login(token="Ene2jSTv1PTh0Mepzzy3.IE9vAUwuf3S4JdgTEd27iW.QGhRNa+WTgOn0dsxToD6
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(toke="En4IRUAnmqBhCyWUD9Ee.WLRoOPvNoqkbrHdQVN+x3G.3czDt9zA5a3mtz0Pfun7FyiAU/dP2MXmOAz+oyfbQRk=")
+ks.login(token="En4IRUAnmqBhCyWUD9Ee.WLRoOPvNoqkbrHdQVN+x3G.3czDt9zA5a3mtz0Pfun7FyiAU/dP2MXmOAz+oyfbQRk=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
@@ -988,14 +988,14 @@ def bot(op):
                 else: md +="♕ Auto join → off \n"
                 if wait["autoCancel"]["on"] == True:md+="♛ Cancel Invite → " + str(wait["autoCancel"]["members"]) + " \n"     
                 else: md+= "♕ Cancel Invite → off \n"  
-                if wait["protection"] == True: md+="♛ Protect → on \n"   
-                else: md+="♕ Protect → off \n"
-                if wait["protecturl"] == True: md+="♛ Block url → on \n"  
-                else:md+="♕ Block url → off \n" 
+                if wait["leaveRoom"] == True: md+="♛ Auto leave → on \n"   
+                else: md+="♕ Auto leave → off \n"
+                if wait["timeline"] == True: md+="♛ Auto Share → on \n"  
+                else:md+="♕ Auto Share → off \n" 
                 if wait["commentOn"] == True: md+="♛ Comment → on \n"   
                 else:md+="♕ Comment → off \n"    
-                if wait["protectname"] == True: md+="♛ Namelock → on \n"  
-                else:md+="♕ Namelock → off \n"   
+                if wait["autoAdd"] == True: md+="♛ Auto add → on \n"  
+                else:md+="♕ Auto add → off \n"   
                 if wait["likeOn"] == True: md+="♛ Auto like → on \n"
                 else:md+="♕ Auto like → off \n" 
                 cl.sendText(msg.to,md)
