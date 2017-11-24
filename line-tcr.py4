@@ -238,12 +238,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u186cf7940c7de8f76a3cbc76405f5f5c"
-owner = "u186cf7940c7de8f76a3cbc76405f5f5c"
-admsa = "u186cf7940c7de8f76a3cbc76405f5f5c"
-adminMID = "u186cf7940c7de8f76a3cbc76405f5f5c"
+Bots = ["uc77fd25b59f6e563d84f1334f3fed10b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = ["uc77fd25b59f6e563d84f1334f3fed10b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "uc77fd25b59f6e563d84f1334f3fed10b"
+owner = "uc77fd25b59f6e563d84f1334f3fed10b"
+admsa = "uc77fd25b59f6e563d84f1334f3fed10b"
+adminMID = "uc77fd25b59f6e563d84f1334f3fed10b"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -251,15 +251,15 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
+    'message':"Thanks for add Contact line.me/ti/p/~@enr7503k",
     "lang":"JP",
-    "comment":"AutoLike 🥀Love🥀  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
+    "comment":"Auto like by line.me/ti/p/~ebisuindo ☞ Contact line.me/ti/p/~@enr7503k",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"꧁☢☠ℓℓஆՁՃิ☠☡꧂",
+    "cName":"Mr X",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
