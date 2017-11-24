@@ -6,246 +6,209 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EmOSezrjZn4jbJWXp4Mc.ggZ3LaX96pDQplX2qf9Fxa.7EnkPt2m+fgeoisLlgE+Ov/LfTBLQjQRZaQqLMhI8fc=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmaVvITzZCcQjo7W3PJb.SK7Te9gWYUQsywhOX1wfYW.quWHfPMQMRB0oZQ0uPxOCxzkWuEojOkAkiHRKhR6eZA=")
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmiogXguyGv03chUFqFe.Vz4+DI5v8TEUGtMphKulhG.j2aMaGOTGQUS8Fx0dz1ny8ebdpvXlDtAEQagsmivPQg=")
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmzqcRBq7IcOUrzyLCPf.khw5oKeXkGNprT+dPTIyhW.RYojfWiLfx6InOw27rvsI71NY//HhLRMX0RjYqKZRZM=")
+kc.login(qr=True)
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="Emr2Vurv5MbVJBCstgO9.NLEdVUFE9zK89Wsdc4+xQq.7J5xt1VOfegPn01qfCODHgH5tRu672IZM/mecO3BL6c=")
+kd.login(qr=True)
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgfWvvZ2VovcPWDw0e8ClvDZfw=")
+ke.login(qr=True)
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EmXghEnhwPcp05GrCJOf.2Ad+jSMK5L577woncnuh7W.2ypZiZCTMdgCQiCkMI77WJJWDgnJ+1b3xLpuZ2cUFnY=")
+kf.login(qr=True)
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EmQUsLtqrrg5dPDpk9R3.WYwUmPddvCwHomBR1CqRKW.KTi5YyuOFsP6+76NYf8Y9iz+rDks7sKzmtZ48q7QHVM=")
+kg.login(qr=True)
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="Emq4iaP5toSDPvY33GWd.2LoE6VMBQSoJV0xj2s8CRq.MdcwKXXf4/iGD73WBxmzDGajg02SAUH5y/Qm21ftvhs=")
+kh.login(qr=True)
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EmDgHCS2au797sJXV7l1.g6FOp0t4PxDBHY58MdDjSq.SOpvVx0ee2KZJVrF4CdJi3sCTYfke+wUrSi57/svigM=")
+kj.login(qr=True)
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EmvEEvB0owIRu8VhK8n7.0PhcaDg6BmNNypOZPKzWPW.AwT+5Mc8Tiy4+vg5cBorBKUm3nV6KGA47vYWel/SG/k=")
+kl.login(qr=True)
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EmS1Hj6dGZ6cmtdcZItc.sZv3N17Hnvf3rV+iVgX3la.2643jQuYbz5C1dgZ9a7iDI0ViyP5gsXfiGEpydChXWg=")
+km.login(qr=True)
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EmTDEIC1aJzqp8vzgbId.WhaXXUtVTTGNCzAQZKoahq.O1cq++v6eOrgINr9mlYuQlSP16WQ1tSiNggI3vbqGIs=")
+kn.login(qr=True)
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
+ko.login(qr=True)
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
+kp.login(qr=True)
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
+kq.login(qr=True)
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
+kr.login(qr=True)
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
+ks.login(qr=True)
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
+kt.login(qr=True)
 kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[🇹🇭〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗🇹🇭]====
+helpMessage =""" ||===[K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟͟͞͞͞i͟͟͟͞͞͞ S͟͟͟͞͞͞e͟͟͟͞͞͞l͟͟͟͞͞͞f͟͟͟͞͞͞b͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞ ]===||
 
-                🇹🇭⬇️⬇️คำสั่งทั้งหมด⬇️⬇️🇹🇭
+☠ Me
+☠ Id
+☠ Mid
+☠ Gift
+☠ Mid @
+☠ Cn: Display Name
+☠ Cc: Clock Name
+☠ Mc:
+☠ Tl: text
+☠ Auto join: on/off
+☠ Auto add: on/off
+☠ Auto leave: on/off
+☠ Clock: on/off
+☠ Share on
+☠ Add message: text
+☠ Message:
+☠ Add comment: text
+☠ Comment: 
+☠ Cbroadcast text
+☠ Gbroadcast text
+☠ Reject
 
-❂͜͡🇹🇭➣ Me
-❂͜͡🇹🇭➣ Id
-❂͜͡🇹🇭➣ Mid
-❂͜͡🇹🇭➣ Gift
-❂͜͡🇹🇭➣ Mid @
-❂͜͡🇹🇭➣ Cn: Display Name
-❂͜͡🇹🇭➣ Cc: Clock Name
-❂͜͡🇹🇭➣ Mc:
-❂͜͡🇹🇭➣ Tl: text
-❂͜͡🇹🇭➣ Auto join: on/off
-❂͜͡🇹🇭➣ Auto add: on/off
-❂͜͡🇹🇭➣ Auto leave: on/off
-❂͜͡🇹🇭➣ Clock: on/off
-❂͜͡🇹🇭➣ Share on
-❂͜͡🇹🇭➣ Add message: text
-❂͜͡🇹🇭➣ Message:
-❂͜͡🇹🇭➣ Add comment: text
-❂͜͡🇹🇭➣ Comment: 
-❂͜͡🇹🇭➣ Cbroadcast text
-❂͜͡🇹🇭➣ Gbroadcast text
-❂͜͡🇹🇭➣ Reject
+ ||===[C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ ]===||
 
-       ༺•㏒ Instruction Room ㏒•༻
-
-❂͜͡🍎➣ Creator
-❂͜͡🍎➣ Gn: text
-❂͜͡🍎➣ Invite: mid
-❂͜͡🍎➣ Invite:on Send contact
-❂͜͡🍎➣ Mybot
-❂͜͡🍎➣ Allgift 
-❂͜͡🍎➣ All mid
-❂͜͡🍎➣ Cancel
-❂͜͡🍎➣ Link on/off
-❂͜͡🍎➣ ginfo
-❂͜͡🍎➣ Gurl
-❂͜͡🍎➣ Glist
-❂͜͡🍎➣ Sett
-❂͜͡🍎➣ Gcancel: number
-❂͜͡🍎➣ Masuk / Join
-❂͜͡🍎➣ Sayang
-❂͜͡🍎➣ Beb
-❂͜͡🍎➣ Cinta
-❂͜͡🍎➣ Sayang pulang
-❂͜͡🍎➣ Pulang
-❂͜͡🍎➣ Ban @ target
-❂͜͡🍎➣ Uban @ target
-❂͜͡🍎➣ Ban -> send contact
-❂͜͡🍎➣ Unban -> send contact
-❂͜͡🍎➣ Comment bl/wl
-❂͜͡🍎➣ Banlist
-❂͜͡🍎➣ Cekban
-❂͜͡🍎➣ Clear ban
-❂͜͡🍎➣ Kill
-❂͜͡🍎➣ Kill ban
-❂͜͡🍎➣ Speed
-❂͜͡🍎➣ Ambilin @ Steal dp target
-❂͜͡🍎➣ Sampul @ Steal cover target
-❂͜͡🍎➣ Copy @ All bot copy target
-❂͜͡🍎➣ Mycopy @ Copy target profile
-❂͜͡🍎➣ Keluar @ target
-❂͜͡🍎➣ music
-❂͜͡🍎➣ .reboot
-❂͜͡🍎➣ Wikipedia
-❂͜͡🍎➣ Cleanse
-❂͜͡🍎➣ Pbot
-❂͜͡🍎➣ Pcancel
-❂͜͡🍎➣ P1-P18 Contact Bot
-❂͜͡🍎➣ P1-P2 tl:
-❂͜͡🍎➣ P1-P2 say
-❂͜͡🍎➣ P1-P2 tag
-❂͜͡🍎➣ P1-P2 invite:
-❂͜͡🍎➣ P1-P3 mid
-❂͜͡🍎➣ P1-P2 gurl
-❂͜͡🍎➣ P1-P5 gift
-❂͜͡🍎➣ P1-P18 rename:
-❂͜͡🍎➣ All: rename all:
-❂͜͡🍎➣ Allbio: Isi bio:
-❂͜͡🍎➣ P1-P18 rgroup
-❂͜͡🍎➣ P1-P5 join
-❂͜͡🍎➣ P1-P5 bye
-❂͜͡🍎➣ P1-P5 link on/off
+☬ Creator
+☬ Gn: text
+☬ Invite: mid
+☬ Invite:on Send contact
+☬ Mybot
+☬ Allgift 
+☬ All mid
+☬ Cancel
+☬ Link on/off
+☬ ginfo
+☬ Gurl
+☬ Glist
+☬ Sett
+☬ Gcancel: number
+☬ Masuk / Join
+☬ Sayang
+☬ Beb
+☬ Cinta
+☬ Sayang pulang
+☬ Pulang
+☬ Ban @ target
+☬ Uban @ target
+☬ Ban -> send contact
+☬ Unban -> send contact
+☬ Comment bl/wl
+☬ Banlist
+☬ Cekban
+☬ Clear ban
+☬ Kill
+☬ Kill ban
+☬ Speed
+☬ Ambilin @ Steal dp target
+☬ Sampul @ Steal cover target
+☬ Copy @ All bot copy target
+☬ Mycopy @ Copy target profile
+☬ Keluar @ target
+☬ music
+☬ .reboot
+☬ Wikipedia
+☬ Cleanse
+☬ Pbot
+☬ Pcancel
+☬ P1-P18 Contact Bot
+☬ P1-P2 tl:
+☬ P1-P2 say
+☬ All: rename all:
+☬ Allbio: Isi bio:
 
      ༺•㏒ COMMAND Protect ㏒•༻
 
-❂͜͡☆➣ Qr on/off
-❂͜͡☆➣ Backup on/off
-❂͜͡☆➣ Protect On/off
-❂͜͡☆➣ Namelock On/off
+♛ Qr on/off
+♛ Backup on/off
+♛ Protect On/off
+♛ Namelock On/off
 
-        
-  
-     ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
-
-           〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗
-       [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
-       
-       http://line.me/ti/p/j2nADgDkJf
+   K̲̱̠̞̖ͧ̔͊̿̑ͯͅA̘̫͈̭͌͛͌̇̇̍N͉̠̙͉̗̺̋̔ͧ̊E̮̟͈̣̖̰̩̹͈̾ͨ̑͑K̲̱̠̞̖ͧ̔͊̿̑ͯͅI̞̟̫̺ͭ̒ͭͣ T̘̟̼̉̈́͐͋͌̊E̮̟͈̣̖̰̩̹͈̾ͨ̑͑A̘̫͈̭͌͛͌̇̇̍M̘͈̺̪͓̺ͩ͂̾ͪ̀̋ B͎̣̫͈̥̗͒͌̃͑̔̾ͅO̜̓̇ͫ̉͊ͨT̘̟̼̉̈́͐͋͌̊ [K̲̱̠̞̖ͧ̔͊̿̑ͯͅT̘̟̼̉̈́͐͋͌̊B͎̣̫͈̥̗͒͌̃͑̔̾ͅ]
 
 """
-helpMessage2 ="""╔════════════════╗
-║〘ᏢᏌᏴᏞᏆᏟ ᏟᎾᎷᎷᎪNᎠ〙
-╠════════════════╣
-║                〘ᏆᎠ〙
-║              〘ᎷᏆᎠ〙  
-║             〘ᎪᏞᏞ ᎷᏆᎠ〙
-║                〘ᎷᎬ〙
-║             〘ᴊᎾᏆN ᎪᏞᏞ〙
-║           〘ᏌᏚᏆᎡ 1/2/3/4〙
-║             〘ᏩᎡᎾᏌᏢ ᏆᎠ〙
-║              〘ᎢᏞ : "+"〙
-║              〘ᏟᏞᎾᏟK :〙
-║             〘ᏌᏢ ᏟᏞᎾᏟK〙
-║             〘NᎪᎷᎬ : + 〙
-║             〘ᎷᏆᏟ〙"ᎷᏆᎠ" 〙
-║  〘ᎡᎬᏓᎬᏟᎢ〙"ᏆNᏙᏆᎢᎬ" 〙
-║[Massage add: "text"]:
-║[Add confirmasi]:
-║[Comment set : "Text"]:
-║[Comment check]:
-║[Clock: on]: "Clock name on"
-║[Clock: off]: "Clock name off"
-║[Ban]: "Add blacklist"
-║[Unban]: "Dalate blacklist"
-║[Banlist]: "Check blacklist"
-╠════════════╗
-║〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
-╠════════════╝
-║[Contact: on/off]: 
-║[Auto join: on/off]: 
-║[Auto join: on/off]: 
-║[Cancel Invite: 1 on/off]:
-║[Auto share: on/off]:
-║[Auto leave: on/off]: 
-║[Comment: on/off]: 
-║[Auto add: on/off]: 
-║[Auto like: on/off]: 
-╠══════════════╗	
-║⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
-╠══════════════╝
-║[Ban " @Tag]: 
-║[Unban " @Tag]: 
-║[Urlon]: "Open urL"
-║[Urloff]: "Closed urL"
-║[Url]: " Check urL room"
-║[Ginfo]: "~÷~ data room"
-║[Invite: "mid"]: 
-║[Say: "Text"]: "Kicker talk"
-║[Cancel]: "Cancel invite"
-║[Gns: "name"]:"Change Gname"
-║[NKs: "Name"]:
-║[Dead]: "Kick Blacklist"
-║[Protect: on/off]:
-║[Block url: on/off]:
-║[Namelock: on/off]:
-║[Blockinvite: on/off]: 
-╠═══════════════════╝
-║
-║ [  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  ]
-╚═══════════════════════════╝
+helpMessage2 ="""  ||===[K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟͟͞͞͞i͟͟͟͞͞͞ S͟͟͟͞͞͞e͟͟͟͞͞͞l͟͟͟͞͞͞f͟͟͟͞͞͞b͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞ ]===||
+
+♚[Massage add: "text"]:
+♚[Add confirmasi]:
+♚[Comment set : "Text"]:
+♚[Comment check]:
+♚[Clock: on]: "Clock name on"
+♚[Clock: off]: "Clock name off"
+♚[Ban]: "Add blacklist"
+♚[Unban]: "Dalate blacklist"
+♚[Banlist]: "Check blacklist"
+
+C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ C͟͟͟͞͞͞r͟͟͟͞͞͞e͟͟͟͞͞͞a͟͟͟͞͞͞t͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ 
+
+☩[Contact: on/off]: 
+☩[Auto join: on/off]: 
+☩[Auto join: on/off]: 
+☩[Cancel Invite: 1 on/off]:
+☩[Auto share: on/off]:
+☩[Auto leave: on/off]: 
+☩[Comment: on/off]: 
+☩[Auto add: on/off]: 
+☩[Auto like: on/off]: 
+
+C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ P͟͟͟͞͞͞r͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞e͟͟͟͞͞͞c͟͟͟͞͞͞t͟͟͟͞͞͞
+
+✠[Ban " @Tag]: 
+✠[Unban " @Tag]: 
+✠[Urlon]: "Open urL"
+✠[Urloff]: "Closed urL"
+✠[Url]: " Check urL room"
+✠[Ginfo]: "~÷~ data room"
+✠[Invite: "mid"]: 
+✠[Say: "Text"]: "Kicker talk"
+✠[Cancel]: "Cancel invite"
+✠[Gns: "name"]:"Change Gname"
+✠[NKs: "Name"]:
+✠[Dead]: "Kick Blacklist"
+✠[Protect: on/off]:
+✠[Block url: on/off]:
+✠[Namelock: on/off]:
+✠[Blockinvite: on/off]: 
 """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
