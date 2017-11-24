@@ -34,7 +34,7 @@ kf.login(token="En1FYtLsqoZFZYFdVTnc.IXqIA67Yp2TOiNIPBdv0la.HD0dzNcX5rfoI7qm6Ewl
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(qr=True)
+kg.login(token="En38cVakLyWe0Lem8TOc.IXqIA67Yp2TOiNIPBdv0la.B9dRnrc/Xp1ZHqcOtt9fzbE9+QXkS5wDUbnylZIA+p8=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
