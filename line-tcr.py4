@@ -157,7 +157,7 @@ helpMessage =""" ||===[K͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞e͟͟͟͞͞͞k͟͟
 ☬ All: rename all:
 ☬ Allbio: Isi bio:
 
-     ༺•㏒ COMMAND Protect ㏒•༻
+    C͟͟͟͞͞͞o͟͟͟͞͞͞m͟͟͟͞͞͞m͟͟͟͞͞͞a͟͟͟͞͞͞n͟͟͟͞͞͞d͟͟͟͞͞͞ F͟͟͟͞͞͞o͟͟͟͞͞͞r͟͟͟͞͞͞ P͟͟͟͞͞͞r͟͟͟͞͞͞o͟͟͟͞͞͞t͟͟͟͞͞͞e͟͟͟͞͞͞c͟͟͟͞͞͞t͟͟͟͞͞͞ 
 
 ♛ Qr on/off
 ♛ Backup on/off
@@ -2094,7 +2094,7 @@ def bot(op):
                 cl.like(url[25:58], url[66:], likeType=1001)
         if op.type == 25:
             msg = op.message
-            if msg.text.lower() in ["phet tag all"]:
+            if msg.text.lower() in ["@tag all"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2435,30 +2435,30 @@ def bot(op):
                 kt.sendMessage(msg)
             elif msg.text in ["Bot Team"]:
                 msg.contentType = 13
-                kk.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ครอบครัว]\n[ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]")
-                ki.sendText(msg.to, "หัวหน้าครอบครัว: ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
+                kk.sendText(msg.to, "[KANEKI SELFBOT]")
+                ki.sendText(msg.to, "Kaneki Selfbo 1")
+                msg.contentMetadata = {'mid': 'U737517bb99e72efc9f8549d6d3a97373 '}
                 kc.sendMessage(msg)
-                kd.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁☢☠ℓℓஆՁՃิ☠☡꧂ ")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
+                kd.sendText(msg.to, "Kaneki Selfbo 2")
+                msg.contentMetadata = {'mid': 'U0711af4d4e4ab2039bb27ae94e535cfe '}
                 ke.sendMessage(msg)
-                kf.sendText(msg.to, "ผู้จัดการ ครอบครัว: ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
-                msg.contentMetadata = {'mid': ' u5068fff4398601a4b5fa1c9876ea170c '}
+                kf.sendText(msg.to, "Kaneki Selfbo 3")
+                msg.contentMetadata = {'mid': 'Ua6dd05a3a3ab5ccdeb8ca31550c845c5 '}
                 kg.sendMessage(msg)
-                kh.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
+                kh.sendText(msg.to, "Kaneki Selfbo 4")
+                msg.contentMetadata = {'mid': 'Ub21f2a9048dab1c72ddb58b5a18267fc '}
                 kj.sendMessage(msg)
-                kl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่งบอท:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c '}
+                kl.sendText(msg.to, "Kaneki Selfbo 5")
+                msg.contentMetadata = {'mid': 'Uab4a0e7f28e102bd6ad7d0a0596ae985 '}
                 km.sendMessage(msg)
-                kn.sendText(msg.to, "ผู้ดูแลเรืีองการเข้าสู่ระบบ.บอท.:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
+                kn.sendText(msg.to, "Kaneki Selfbo 6")
+                msg.contentMetadata = {'mid': 'Uab4a0e7f28e102bd6ad7d0a0596ae985 '}
                 ko.sendMessage(msg)
-                kp.sendText(msg.to, "ตัวเเทนขาย1 :⬇️⬇️⬇️ติดต่อโดยตรง ⬇️⬇️⬇️")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
+                kp.sendText(msg.to, "Kaneki Selfbo 7")
+                msg.contentMetadata = {'mid': 'Ub21f2a9048dab1c72ddb58b5a18267fc'}
                 kr.sendMessage(msg)
-                ks.sendText(msg.to, "ตัวเเทนขาย2:⬇️⬇️⬇️ติดต่อโดยตรง⬇️⬇️⬇️")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
+                ks.sendText(msg.to, "Kaneki Selfbo 8")
+                msg.contentMetadata = {'mid': 'Ub21f2a9048dab1c72ddb58b5a18267fc'}
                 kt.sendMessage(msg)
             elif "youtt " in msg.text.lower():
                 if msg.toType == 2:
@@ -2505,25 +2505,25 @@ def bot(op):
                 gs = cl.getGroup(msg.to)
                 for g in gs.members:
                     if _nametarget == g.displayName:
-                       cl.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kk.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")  
-                       ki.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")  
-                       kc.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kd.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       ke.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kf.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kg.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kh.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kj.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kl.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       km.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kn.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       ko.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kp.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kq.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kr.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       ks.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
-                       kt.sendText(g.mid,"ѕєʟғвот✗[PHET HACK BOT]")
+                       cl.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kk.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")  
+                       ki.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")  
+                       kc.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kd.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       ke.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kf.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kg.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kh.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kj.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kl.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       km.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kn.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       ko.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kp.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kq.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kr.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       ks.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
+                       kt.sendText(g.mid,"SPAM BYE CONTACT line.me/ti/p/~@enr7503k")
                        cl.sendText(msg.to, "Done...")
                        print "Berhasil Spam Kontak"
 
@@ -2735,7 +2735,7 @@ def bot(op):
                     cl.sendMessage(M)
                     cl.sendText(msg.to,"old user")
 
-            elif 'Yt ' in msg.text:
+            elif 'Youtub ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('Yt ', "").strip()
                     query = urllib.quote(textToSearch)
@@ -2785,8 +2785,8 @@ def bot(op):
 
 
 #==================================================
-            elif "#ชื่อบอท:" in msg.text:
-                string = msg.text.replace("#ชื่อบอท:","")
+            elif "Allname:" in msg.text:
+                string = msg.text.replace("Allname:","")
                 if len(string.decode('utf-8')) <= 20:
                     profile = ki.getProfile()
                     profile.displayName = string
@@ -2860,8 +2860,8 @@ def bot(op):
                     profile.displayName = string
                     kt.updateProfile(profile)
                     cl.sendText(msg.to,"nama berubah menjadi " + string + "")
-            elif "#ตัสบอท:" in msg.text:
-                string = msg.text.replace("#ตัสบอท:","")
+            elif "Allstatus:" in msg.text:
+                string = msg.text.replace("Allstatus:","")
                 if len(string.decode('utf-8')) <= 500:
                     profile = ki.getProfile()
                     profile.statusMessage = string
@@ -2934,8 +2934,8 @@ def bot(op):
                     profile = kt.getProfile()
                     profile.statusMessage = string
                     kt.updateProfile(profile)
-            elif "#ชื่อตัวเอง:" in msg.text:
-                string = msg.text.replace("#ชื่อตัวเอง:","")
+            elif "Rname:" in msg.text:
+                string = msg.text.replace("Rname:","")
                 if len(string.decode('utf-8')) <= 20:
                     profile = cl.getProfile()
                     profile.displayName = string
@@ -2995,41 +2995,41 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        ki.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         ki.leaveGroup(msg.to)
-                        kk.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kk.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kk.leaveGroup(msg.to)
-                        kc.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kc.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kc.leaveGroup(msg.to)
-                        kd.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kd.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kd.leaveGroup(msg.to)
-                        ke.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        ke.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         ke.leaveGroup(msg.to)
-                        kf.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kf.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kf.leaveGroup(msg.to)
-                        kg.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kg.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kg.leaveGroup(msg.to)
-                        kh.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kh.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kh.leaveGroup(msg.to)
-                        kj.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kj.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kj.leaveGroup(msg.to)
-                        kl.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kl.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kl.leaveGroup(msg.to)
-                        km.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        km.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         km.leaveGroup(msg.to)
-                        kn.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kn.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         kn.leaveGroup(msg.to)
-                        ko.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        ko.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[My Creator line.me/ti/p/~ebisuindo]")
                         ko.leaveGroup(msg.to)
-                        kp.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kp.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[Contact line.me/ti/p/~@enr7503k]")
                         kp.leaveGroup(msg.to)
-                        kq.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kq.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[Contact line.me/ti/p/~@enr7503k]")
                         kq.leaveGroup(msg.to)
-                        kr.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[🀄ลาก่อย ลาก่อย 👌]")
+                        kr.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[Contact line.me/ti/p/~@enr7503k]")
                         kr.leaveGroup(msg.to)
-                        ks.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[💕ลาก่อย ลาก่อย💕]")
+                        ks.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[Contact line.me/ti/p/~@enr7503k]")
                         ks.leaveGroup(msg.to)
-                        kt.sendText(msg.to,"Bye~Bye"  +  str(ginfo.name)  + "\n\n[💕ลาก่อย ลาก่อย💕]")
+                        kt.sendText(msg.to,"Bye Bye Semua"  +  str(ginfo.name)  + "\n\n[Contact line.me/ti/p/~@enr7503k]")
                         kt.leaveGroup(msg.to)
                     except:
                         pass
@@ -3325,18 +3325,8 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 msg.contentMetadata = {"mid":mmid}
                 cl.sendMessage(msg)
 
-            elif "Phet Keyy" in msg.text:
-                cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
-
-۩✟ໄ௮่௮ิთਙԳのਙ ۞ ໄ௮่જӘபլのਙีઈ.۩
-.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*
-Әध่ךլਙี้धחՁ่ך௮ิთਙଣ้ךのิஇनะււnଏ श้ךଏமढัსიุ
-×º°”˜`”°º× ×º°”˜`”°º×
-🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
-↜«↜«↜««✾»»↝»↝»↝
-♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
-💖¹⁵ / ⁸ /² ⁰ ¹ ⁶ 💖
-ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
+            elif "Kaneki Keyy" in msg.text:
+                cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{KANEKI TEAM BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 
 """)
 
@@ -3423,7 +3413,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 ks.sendText(msg.to,"Bot 17🔥")
                 kt.sendText(msg.to,"Bot 18🔥")
             elif "Phet Say " in msg.text:
-                                bctxt = msg.text.replace("Phet Say ","")
+                                bctxt = msg.text.replace("Kaneki Say ","")
                                 ki.sendText(msg.to,(bctxt))
                                 kk.sendText(msg.to,(bctxt))
                                 kc.sendText(msg.to,(bctxt))
@@ -3512,7 +3502,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                     cl.sendText(msg.to,"Done..")
                     del wait['pname'][msg.to]
                 else:
-                    cl.sendText(msg.to,"bone..")
+                    cl.sendText(msg.to,"Done..")
 					
             elif "Blockinvite:on" == msg.text:
 				gid = msg.to
@@ -4016,58 +4006,58 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 #===========================================
             elif msg.text.lower() == 'botname':
                 profile = ki.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki1"
                 ki.sendText(msg.to, text)
                 profile = kk.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki2"
                 kk.sendText(msg.to, text)
                 profile = kc.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki3"
                 kc.sendText(msg.to, text)
                 profile = kd.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki4"
                 kd.sendText(msg.to, text)
                 profile = ke.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki5"
                 ke.sendText(msg.to, text)
                 profile = kf.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki6"
                 kf.sendText(msg.to, text)
                 profile = kg.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki7"
                 kg.sendText(msg.to, text)
                 profile = kh.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki8"
                 kh.sendText(msg.to, text)
                 profile = kj.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki9"
                 kj.sendText(msg.to, text)
                 profile = kn.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki10"
                 kn.sendText(msg.to, text)
                 profile = ko.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki11"
                 ko.sendText(msg.to, text)
                 profile = kp.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki12"
                 kp.sendText(msg.to, text)
                 profile = kq.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki13"
                 kq.sendText(msg.to, text)
                 profile = kr.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki14"
                 kr.sendText(msg.to, text)
                 profile = ks.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki15"
                 ks.sendText(msg.to, text)
                 profile = kt.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki16"
                 kt.sendText(msg.to, text)
                 profile = kl.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki17"
                 kl.sendText(msg.to, text)
                 profile = km.getProfile()
-                text = profile.displayName + "🇹🇭"
+                text = profile.displayName + "Kaneki18"
                 km.sendText(msg.to, text)
             elif "Ambil QR: " in msg.text:
                 if msg.toType == 2:
@@ -4254,7 +4244,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Keyy"]:
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ ꧁☢☠ℓℓஆՁՃิ☠☡꧂ ]")
+                cl.sendText(msg.to, "[Kaneki Selfbot]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ ꧁☢☠ℓℓஆՁՃิ☠☡꧂ ]")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -4359,7 +4349,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                                 except Exception as e:
                                     print e
 #=================================================
-            elif msg.text in ["Mebb"]:
+            elif msg.text in ["Kembali"]:
                 try:
                     cl.updateDisplayPicture(mybackup.pictureStatus)
                     cl.updateProfile(mybackup)
@@ -4404,10 +4394,10 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
                     gs = kc.getGroup(msg.to)
-                    ki.sendText(msg.to,"🔸We come to destroy your group🔸")
-                    kk.sendText(msg.to,"Relax slow slow no baper...😂😂")
-                    kc.sendText(msg.to,"Kenapa diem aja..??")
-                    ks.sendText(msg.to,"Tangkis Bego Jangan Gemeter...😂😂")
+                    ki.sendText(msg.to,"Jangan Baper yah.....")
+                    kk.sendText(msg.to,"Jangan Panik yah......")
+                    kc.sendText(msg.to,"Tangkis Dong hehe.......")
+                    ks.sendText(msg.to,"Rata Gak Rata yang penting Happy...")
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     ks.sendMessage(msg)
